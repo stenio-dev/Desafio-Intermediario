@@ -4,7 +4,7 @@
 
 Este é um pequeno script simples com o objetivo de auxiliar professores e instrutores no dia a dia, permitindo sortear aleatoriamente o nome de um aluno a partir de uma lista pré-definida.
 
-O programa lê os nomes de um arquivo de texto simples e seleciona um nome de forma randômica, exibindo-o no terminal. É uma ferramenta útil para atividades em sala de aula, como selecionar alunos para responder perguntas, apresentar trabalhos ou iniciar discussões.
+O programa lê os nomes de um arquivo de texto simples e seleciona um ou mais nomes de forma randômica sem repetição, exibindo-o(os) no terminal. É uma ferramenta útil para atividades em sala de aula, como selecionar alunos para responder perguntas, apresentar trabalhos ou iniciar discussões.
 
 ## Como Utilizar
 
@@ -33,7 +33,12 @@ Para usar este sorteador, siga os passos abaixo:
     python sorteador_aluno.py
     ```
 
-    O programa irá ler a lista e exibir no terminal o nome do aluno sorteado.
+4.  **Informe a Quantidade para Sortear:**
+    Ao rodar o script, o programa irá perguntar:
+    ```
+    Quantos alunos você quer sortear? (Digite um número positivo):
+    ```
+    Digite o número de alunos que você deseja sortear e pressione Enter. O programa irá então exibir a lista dos nomes sorteados. Se você pedir mais alunos do que existem na lista, ele sorteará todos os disponíveis e avisará.
 
 ## Requisitos
 
